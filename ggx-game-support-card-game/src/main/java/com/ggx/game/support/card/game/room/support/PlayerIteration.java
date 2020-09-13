@@ -3,7 +3,7 @@ package com.ggx.game.support.card.game.room.support;
 import java.util.Iterator;
 import java.util.Map.Entry;
 
-import com.ggx.game.support.core.player.impl.Player;
+import com.ggx.game.support.core.player.impl.AbstractPlayer;
 
 /**
  * 遍历玩家接口
@@ -12,7 +12,7 @@ import com.ggx.game.support.core.player.impl.Player;
  * @author zai
  * 2019-02-11 10:50:38
  */
-public interface PlayerIteration<P extends Player> {
+public interface PlayerIteration<P extends AbstractPlayer> {
 
 	/**
 	 * 迭代

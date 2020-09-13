@@ -1,6 +1,6 @@
 package com.ggx.game.support.card.game.algo.mj.classic;
 
-import com.ggx.game.support.core.player.impl.Player;
+import com.ggx.game.support.core.player.impl.AbstractPlayer;
 
 /**
  * 麻将用户模型
@@ -8,7 +8,7 @@ import com.ggx.game.support.core.player.impl.Player;
  * @author zai
  * 2018-12-27 16:52:28
  */
-public abstract class AlgoMjPlayer extends Player{
+public abstract class AlgoMjPlayer extends AbstractPlayer{
 	
 	
 	

@@ -9,7 +9,7 @@ import com.ggx.game.support.core.pool.PooledObject;
  * @author zai
  * 2020-09-10 18:17:11
  */
-public abstract class PooledPlayer extends Player implements PooledObject{
+public abstract class PooledPlayer extends AbstractPlayer implements PooledObject{
 	
 	protected ObjectPool<?> objectPool;
 

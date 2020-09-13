@@ -2,7 +2,7 @@ package com.ggx.game.support.card.game.player;
 
 import com.ggx.game.support.card.game.house.House;
 import com.ggx.game.support.card.game.room.Room;
-import com.ggx.game.support.core.player.impl.Player;
+import com.ggx.game.support.core.player.impl.AbstractPlayer;
 
 /**
  * 房间玩家
@@ -17,7 +17,7 @@ public class RoomPlayer
 P extends RoomPlayer<P, R, H>,
 R extends Room<P, R, H>, 
 H extends House<P, R, H>
-> extends Player {
+> extends AbstractPlayer {
 	
 	/**
 	 * 玩家编号
