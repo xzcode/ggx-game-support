@@ -16,11 +16,6 @@ public abstract class AbstractPlayer implements GGXPlayer{
 	//玩家id
 	protected String playerId; 
 	
-	//序号
-	protected int index; 
-	
-	//是否在线
-	protected boolean online; 
 	
 	public String getPlayerId() {
 		return playerId;
@@ -42,29 +37,5 @@ public abstract class AbstractPlayer implements GGXPlayer{
 	}
 
 
-	@Override
-	public int getIndex() {
-		return index;
-	}
-
-
-	@Override
-	public boolean isOnline() {
-		return online;
-	}
-
-
-	public void setIndex(int seat) {
-		this.index = seat;
-	}
-
-
-	public void setOnline(boolean online) {
-		this.online = online;
-	}
-
-
-	
-	
 	
 }
