@@ -1,9 +1,9 @@
-package com.ggx.game.support.core.scene;
+package com.ggx.game.support.core.playercontainer;
 
 import java.util.Map;
 
-import com.ggx.game.support.core.scene.listener.PlayerEnterListener;
-import com.ggx.game.support.core.scene.listener.PlayerLeaveListener;
+import com.ggx.game.support.core.playercontainer.listener.PlayerEnterListener;
+import com.ggx.game.support.core.playercontainer.listener.PlayerLeaveListener;
 
 /**
  * GGX场景统一接口

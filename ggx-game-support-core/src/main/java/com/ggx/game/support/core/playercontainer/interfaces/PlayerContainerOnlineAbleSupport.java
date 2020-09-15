@@ -1,4 +1,4 @@
-package com.ggx.game.support.core.scene.interfaces;
+package com.ggx.game.support.core.playercontainer.interfaces;
 
 import java.util.ArrayList;
 import java.util.Collections;

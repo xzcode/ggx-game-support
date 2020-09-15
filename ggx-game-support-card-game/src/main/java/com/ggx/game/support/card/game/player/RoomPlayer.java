@@ -116,10 +116,5 @@ H extends House<P, R, H>
 	public void setRobot(boolean robot) {
 		this.robot = robot;
 	}
-	@Override
-	public void reset() {
-		// TODO Auto-generated method stub
-		
-	}
 	
 }

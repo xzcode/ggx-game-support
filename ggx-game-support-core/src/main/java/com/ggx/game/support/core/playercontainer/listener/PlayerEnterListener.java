@@ -1,4 +1,4 @@
-package com.ggx.game.support.core.scene.listener;
+package com.ggx.game.support.core.playercontainer.listener;
 
 /**
  * 添加玩家监听器

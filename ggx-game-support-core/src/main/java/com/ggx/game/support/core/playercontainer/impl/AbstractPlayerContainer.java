@@ -1,4 +1,4 @@
-package com.ggx.game.support.core.scene.impl;
+package com.ggx.game.support.core.playercontainer.impl;
 
 import java.util.List;
 import java.util.Map;
@@ -6,9 +6,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 import com.ggx.game.support.core.player.GGXPlayer;
-import com.ggx.game.support.core.scene.PlayerContainer;
-import com.ggx.game.support.core.scene.listener.PlayerEnterListener;
-import com.ggx.game.support.core.scene.listener.PlayerLeaveListener;
+import com.ggx.game.support.core.playercontainer.PlayerContainer;
+import com.ggx.game.support.core.playercontainer.listener.PlayerEnterListener;
+import com.ggx.game.support.core.playercontainer.listener.PlayerLeaveListener;
 
 /**
  * 游戏场景基类

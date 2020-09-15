@@ -1,4 +1,4 @@
-package com.ggx.game.support.core.scene.interfaces;
+package com.ggx.game.support.core.playercontainer.interfaces;
 
 /**
  * 双循环遍历玩家接口
