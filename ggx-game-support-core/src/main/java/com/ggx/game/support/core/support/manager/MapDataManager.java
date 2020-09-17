@@ -8,7 +8,7 @@ import java.util.Map;
  * @author zai
  * 2020-09-15 14:28:15
  */
-public interface MapManager<K, V> {
+public interface MapDataManager<K, V> {
 	
 	
 	

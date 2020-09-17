@@ -6,9 +6,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import com.ggx.game.support.core.support.listener.ListenerManager;
 import com.ggx.game.support.core.support.listener.impl.DefaultListenerManager;
 import com.ggx.game.support.core.support.listener.listener.Listener;
-import com.ggx.game.support.core.support.manager.MapManager;
+import com.ggx.game.support.core.support.manager.MapDataManager;
 
-public abstract class ListenableMapManager<K, V> implements MapManager<K, V>{
+public abstract class ListenableMapDataManager<K, V> implements MapDataManager<K, V>{
 	
 	protected Map<K, V> map = new ConcurrentHashMap<>();
 	
@@ -31,13 +31,13 @@ public abstract class ListenableMapManager<K, V> implements MapManager<K, V>{
 
 	@Override
 	public void put(K key, V value) {
-		MapManager.super.put(key, value);
+		MapDataManager.super.put(key, value);
 		this.onPutListenerManager.triggerListeners(value);
 	}
 
 	@Override
 	public V remove(K key) {
-		V removedValue = MapManager.super.remove(key);
+		V removedValue = MapDataManager.super.remove(key);
 		this.onPutListenerManager.triggerListeners(removedValue);
 		return removedValue;
 	}
