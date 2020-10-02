@@ -13,6 +13,10 @@
 		<groupId>com.ggx</groupId>
 		<artifactId>ggx-server-starter</artifactId>
 	</dependency>
+  	<dependency>
+		<groupId>com.ggx</groupId>
+		<artifactId>ggx-util</artifactId>
+	</dependency>
 	
 	<dependency>
 	    <groupId>org.apache.commons</groupId>
