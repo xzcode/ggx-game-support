@@ -38,7 +38,7 @@ H extends House<P, R, H>
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public boolean doFilter(MessageData<?> messageData) {
+	public boolean doFilter(MessageData messageData) {
 		GGXSession session = messageData.getSession();
 		if (session == null) {
 			return true;
