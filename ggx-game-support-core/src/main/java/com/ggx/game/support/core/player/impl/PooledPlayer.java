@@ -1,7 +1,7 @@
 package com.ggx.game.support.core.player.impl;
 
-import com.ggx.game.support.core.pool.ObjectPool;
-import com.ggx.game.support.core.pool.PooledObject;
+import com.ggx.util.pool.ObjectPool;
+import com.ggx.util.pool.PooledObject;
 
 /**
  * 池化玩家基类
