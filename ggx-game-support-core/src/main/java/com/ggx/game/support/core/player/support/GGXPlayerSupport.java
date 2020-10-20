@@ -29,7 +29,7 @@ public interface GGXPlayerSupport extends SessionSendMessageSupport, ExecutorSup
 	 * @author zai
 	 * 2020-09-10 16:49:11
 	 */
-	default GGXFuture disconnect() {
+	default GGXFuture<?> disconnect() {
 		return getSession().disconnect();
 	}
 	

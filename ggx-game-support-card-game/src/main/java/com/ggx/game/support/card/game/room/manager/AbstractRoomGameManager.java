@@ -86,7 +86,7 @@ H extends House<P, R, H>
 	}
 	
 	@Override
-	public GGXFuture submitTask(Runnable runnable) {
+	public GGXFuture<T> submitTask(Runnable runnable) {
 		return executor.submitTask(runnable);
 	}
 	
